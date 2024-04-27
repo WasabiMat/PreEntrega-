@@ -1,0 +1,43 @@
+ul{
+    border: 10px solid firebrick;
+    border-radius: 10px;
+    height: 100px;
+    width: 200px;
+}
+body{
+    background-color: burlywood;
+    margin: 0;
+    padding: 0;
+}
+.texto{
+    font-size: 40px;
+    margin: 0;
+    padding: 10px;
+}
+.textop{
+    font-size: 25px;
+    font: bolder;
+    margin: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.imagen1{
+    width: 55%;
+    margin: 10px;
+    padding: 10px;
+}
+.imagenmenu{
+    width: 25%;
+    margin: 10px;
+}
+.tm{
+    margin: 80px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+h2{
+    font-size: 25px;
+    font: bolder;
+    margin: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}

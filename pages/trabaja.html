@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../archivos.css">
+    <title>Trabaja Con Nosotros</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="quien.html">¿Quienes somos?</a></li>
+                <li><a href="trabaja.html">Trabaja Con Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
+        <h1 class="texto">¡Trabaja Con Nosotros!</h1>
+        <img src="../media/kitchen-2557285_1280.jpg" alt="cocina" class="imagenmenu"> <br>
+        <img src="../media/big-kitchen-2765065_1280.jpg" alt="fabrica" class="imagenmenu"> <br>
+        <label for="Nombre">Nombre y Apellido</label><br>
+        <input type="text" required placeholder="Ingrese tu nombre"><br><br><br>
+        <label for="Correo">Correo Electronico</label><br>
+        <input type="email" required placeholder="Ingrese su Correo"> <br> <br> <br>
+        <label for="Cv">Curriculum Vitae</label> <br>
+        <input type="file" required placeholder="Adjuntar Archivo"> <br> <br><br>
+        <label for="Numero">Telefono</label> <br>
+        <input type="text" required placeholder="Numero Telefonico"> <br><br><br>
+        Hombre<input type="radio" name="sexo" value="hombre"><br>
+        Mujer<input type="radio" name="sexo" value="mujer" ><br>
+        Sin Especificar<input type="radio" name="sexo" value="sin especificar" checked><br>
+            <input type="submit" value="Enviar">
+        </form>
+
+
+</body>
+</html>
