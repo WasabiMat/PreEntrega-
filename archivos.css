@@ -1,13 +1,121 @@
-ul{
-    border: 10px solid firebrick;
-    border-radius: 10px;
-    height: 100px;
-    width: 200px;
-}
-body{
-    background-color: burlywood;
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgba(178, 34, 34, 0.669);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 18px;
+}
+.barra ul li{
+    list-style: none;
+    display: inline;
+    padding: 0px 5px;
+}
+.barra a{
+    text-decoration: none;
+    color: white;
+}
+.barra a:hover{
+    color: #333;
+}
+main{
+    background-image: url(media/recepcion.jpg);
+    height: 650px;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.burbuja{
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border: 5px solid  rgba(178, 34, 34, 0.669);
+    border-radius: 7px;
+}
+h1{
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 5px #333;
+}
+.burbuja p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+.burbuja a{
+    background-color:  #b22222ab;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+.burbuja a:hover{
+    background-color: gray;
+}
+h2{
+    text-align: center;
+    background-color: springgreen;
+    padding: 20px;
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+    font-size: 35px;
+}
+.nuestro{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.543);
+}
+.resta{
+    background-image: url(media/rece1.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+    width: 100%;
+}
+.restaright{
+    padding: 30px;
+    width: 100%;
+    height: auto;
+}
+.restaright p{
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+    background-color: #b22222ab;
+    color: white;
+    padding: 30px;
+}
+.team{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.card{
+    height: 500px;
+    width: 30%;
+    border: 5px solid #b22222ab;
+    text-align: center;
+}
+
+.card-img{
+    height: 250px;
+    background-image: url(media/persona.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card-title{
+    font-size: 30px;
+    color: #b22222ab;
+}
+.card-desc{
+    padding: 15px;
 }
 .texto{
     font-size: 40px;
@@ -40,4 +148,13 @@ h2{
     font: bolder;
     margin: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.redes a{
+    color: white;
+    text-decoration: none;
 }

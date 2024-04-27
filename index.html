@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="archivos.css">
-    <title>Primera Pre-Entrega</title>
+    <title>Segunda Pre-Entrega</title>
 </head>
 <body>
     <header>
-        <nav>
+        <div>El Bodegón de Alberto</div>
+        <nav class="barra">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="./pages/menu.html">Menu</a></li>
@@ -18,15 +21,62 @@
             </ul>
         </nav>
     </header>
-    <div>
-        <p class="texto">
-            <u>Únete a nosotros y descubre una experiencia gastronómica que deleitará todos tus sentidos.</u>
-        </p>
+    <main>
+        <div class="burbuja">
+            <h1>El Bodegón de Alberto</h1>
+            <p>¡Bienvenidos a nuestro restaurante patagónico, donde la magia de la naturaleza se fusiona con la exquisitez de la cocina! En el corazón de la Patagonia, hemos creado un espacio donde cada plato es una aventura culinaria, y cada bocado te transporta a los paisajes más impresionantes de esta región única en el mundo.</p>
+            <p>Si quieres conocer nuestro Menú</p>
+            <a href="./pages/menu.html">Ver mas</a>
+        </div>
+    </main>
+    <h2>Nuestro Lugar</h2>
+    <div class="nuestro">
+        <div class="resta"></div>
+        <div class="restaright">
+            <p>Al traspasar las puertas de madera de "El Bodegón de Alberto", los visitantes son recibidos por una atmósfera cálida y acogedora, impregnada del rico folklore de la Patagonia. Las paredes de piedra y madera, adornadas con artesanías locales y fotografías históricas, cuentan la historia de la región y sus habitantes con cada detalle cuidadosamente seleccionado.</p>
+        </div>
     </div>
-    <img src="./media/recepcion.jpg" alt="recepcion" class="imagen1">
-    <p class="textop">
-        ¡Bienvenidos a nuestro restaurante patagónico, donde la magia de la naturaleza se fusiona con la exquisitez de la cocina! En el corazón de la Patagonia, hemos creado un espacio donde cada plato es una aventura culinaria, y cada bocado te transporta a los paisajes más impresionantes de esta región única en el mundo. 
-    </p>
-    <img src="./media/rece1.jpg" alt="salon" class="imagen1">
+    <h2>Reseña de Criticos Profesionale</h2>
+    <section class="team">
+
+        <article class="card">
+            <div class="card-img"></div>
+            <h3 class="card-title">Marcelo Casanova</h3>
+            <p class="card-desc">"Mi visita a Parrilla Don Alberto fue una experiencia increíble. Desde el momento en que entré, me recibieron con una sonrisa y un ambiente acogedor. Probé el cordero patagónico, y puedo decir que fue una de las mejores comidas que he tenido. La carne estaba tierna y sabrosa, y los acompañamientos eran deliciosos. El servicio era impecable, atento y amable en todo momento. Definitivamente, volveré la próxima vez que esté en Bariloche".</p>
+            <div class="card-redes">
+        </div>
+        </article>
+
+        <article class="card">
+            <div class="card-img"></div>
+            <h3 class="card-title">Gustavo Casanova</h3>
+            <p class="card-desc">"Parrilla Don Alberto es sin duda el lugar donde disfrutar de la mejor comida en Bariloche. Probé varios cortes de carne, todos cocinados a la perfección en la parrilla. La calidad de la comida y el servicio superaron mis expectativas. Además, el ambiente del restaurante era acogedor y familiar. Recomiendo encarecidamente este lugar a todos los amantes de la buena comida que visiten la zona".</p>
+            <div class="card-redes">
+        </div>
+        </article>
+
+        <article class="card">
+            <div class="card-img"></div>
+            <h3 class="card-title">Felipe Casanova</h3>
+            <p class="card-desc">"Mi experiencia en Parrilla Don Alberto fue excepcional. La carne estaba deliciosa, perfectamente asada y llena de sabor. El ambiente del restaurante era acogedor y el servicio era impecable. Además, la carta de vinos ofrecía una excelente selección para acompañar la comida. Sin duda, uno de los mejores restaurantes de Bariloche. Definitivamente, volveré en mi próxima visita".</p>
+            <div class="card-redes">
+        </div>
+        </article>
+    </section>
+    <footer>
+        <p>Todos los derechos reservador por copyright.</p>
+        <p>El sitio fue desarrollado por Matias Gonzalez</p>
+        <div class="redes">
+            <a href="">
+                <i class="fa-brands fa-instagram fa-beat"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-facebook fa-beat"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-whatsapp fa-beat"></i>
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
