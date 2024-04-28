@@ -1,14 +1,6 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-header{
-    background-color: rgba(178, 34, 34, 0.669);
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    font-size: 18px;
+
+nav{
+    background-color: rgb(222, 83, 83);
 }
 .barra ul li{
     list-style: none;
@@ -17,7 +9,7 @@ header{
 }
 .barra a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .barra a:hover{
     color: #333;
@@ -81,7 +73,8 @@ h2{
     height: auto;
 }
 .restaright p{
-    font-size: 40px;
+    font-size: 15px;
+    text-align: right;
 }
 h2{
     text-align: center;
@@ -89,59 +82,14 @@ h2{
     color: white;
     padding: 30px;
 }
-.team{
-    background-color: aliceblue;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-.card{
-    height: 500px;
-    width: 30%;
-    border: 5px solid #b22222ab;
-    text-align: center;
-}
-
-.card-img{
-    height: 250px;
+.img1{
     background-image: url(media/persona.jpg);
-    background-size: cover;
     background-position: center;
+    background-size: cover;
+    height: 600px;
 }
-
-.card-title{
-    font-size: 30px;
-    color: #b22222ab;
-}
-.card-desc{
-    padding: 15px;
-}
-.texto{
-    font-size: 40px;
-    margin: 0;
-    padding: 10px;
-}
-.textop{
-    font-size: 25px;
-    font: bolder;
-    margin: 5px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.imagen1{
-    width: 55%;
-    margin: 10px;
-    padding: 10px;
-}
-.imagenmenu{
-    width: 25%;
-    margin: 10px;
-}
-.tm{
-    margin: 80px;
-    font-size: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
+.card-body{
+    background-color: #b22222ab;
 }
 h2{
     font-size: 25px;
@@ -153,8 +101,4 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
-}
-.redes a{
-    color: white;
-    text-decoration: none;
 }
