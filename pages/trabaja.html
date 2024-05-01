@@ -27,23 +27,43 @@
                 </div>
         </div> 
     </nav>
-    </header>
+    <div>
+        <main class="row" id="trabajo">
+            <div class="burbuja col-sm-1 ">
+                <h1>¿Quieres trabajar con nosotros?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nihil suscipit amet, veniam, incidunt hic labore voluptatibus quaerat explicabo fugit, ea beatae quam animi in? Quod quas adipisci impedit voluptas fugit ipsum hic dolorem cupiditate molestiae itaque cum eum esse ad magnam laborum fugiat eveniet eaque ut, magni id. Quos nam at, aliquid facere cupiditate error aperiam ut? Ipsa a magnam velit earum quasi, eos quibusdam facilis aliquid, officia sint iure expedita praesentium consectetur quae, optio tempore. Excepturi odit veritatis nam velit saepe omnis voluptatibus doloribus? Possimus dicta sapiente accusamus a voluptate, quo enim qui ut odit repellendus asperiores officia nesciunt, omnis itaque maiores minima, minus voluptatibus? Praesentium enim soluta rerum error! Repudiandae ullam deleniti praesentium possimus asperiores eum minima..</p>
+            </div>
+        </main>
+    </div>
     <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
-        <h1 class="texto">¡Trabaja Con Nosotros!</h1>
-        <img src="../media/kitchen-2557285_1280.jpg" alt="cocina" class="imagenmenu"> <br>
-        <img src="../media/big-kitchen-2765065_1280.jpg" alt="fabrica" class="imagenmenu"> <br>
-        <label for="Nombre">Nombre y Apellido</label><br>
-        <input type="text" required placeholder="Ingrese tu nombre"><br><br><br>
-        <label for="Correo">Correo Electronico</label><br>
-        <input type="email" required placeholder="Ingrese su Correo"> <br> <br> <br>
-        <label for="Cv">Curriculum Vitae</label> <br>
-        <input type="file" required placeholder="Adjuntar Archivo"> <br> <br><br>
-        <label for="Numero">Telefono</label> <br>
-        <input type="text" required placeholder="Numero Telefonico"> <br><br><br>
-        Hombre<input type="radio" name="sexo" value="hombre"><br>
-        Mujer<input type="radio" name="sexo" value="mujer" ><br>
-        Sin Especificar<input type="radio" name="sexo" value="sin especificar" checked><br>
-            <input type="submit" value="Enviar">
+        <h2>¡Trabaja Con Nosotros!</h2>
+        <section class="container">
+            <div class="row">
+                <label for="Nombre">Nombre y Apellido</label>
+                <div class="col">
+                <input type="text" class="form-control" placeholder="Nombre y Apellido" name="text">
+                </div>
+                <label for="email">Correo Electronico</label>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Colocar email" name="email">
+                </div>
+                <label for="numero">Telefono</label>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Colocar Numero Telefonico" name="email">
+                </div>
+                <label for="Cv">Curriculum Vitae</label> <br>
+                <input type="file" required placeholder="Adjuntar Archivo">
+                <label for="sel1" class="form-label">Sexo:</label> <br>
+                <div class="col">
+                    <select class="form-select" id="sel1" name="sellist1"> <br><br><br>
+                    <option>Masculino</option><br>
+                    <option>Femenino</option><br>
+                    <option>No binario</option><br>
+                    </select>
+                </div>    
+            </div>
+            <br> <input  type="submit" value="Enviar">
+        </section>
         </form>
 
 

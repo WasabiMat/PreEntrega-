@@ -41,6 +41,26 @@ main{
     justify-content: center;
     align-items: center;
 }
+div main{
+    background-image: url(media/ai-generated-8600463_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#trabajo{
+    background-image: url(media/big-kitchen-2765065_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .burbuja{
     width: 80%;
     background-color: rgba(255, 255, 255, 0.7);
@@ -89,6 +109,13 @@ h3{
 }
 .resta{
     background-image: url(media/rece1.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+    width: 100%;
+}
+.imagenleft{
+    background-image: url(media/big-kitchen-2765065_1280.jpg);
     background-size: cover;
     background-position: center;
     min-height: 250px;
